@@ -12,8 +12,32 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 h3{
     font-size: 25px;
+}
+.menu-container{
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.menu-container a{
+    text-decoration: none;
+    color: black;
+    margin-right: 100px;
+    font-weight: 500;
+    background-color: rgb(226, 47, 83);
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+
+    
+}
+.menu-container a:hover{
+    background-color: rgb(255, 166, 0);
 }
 .diet-container{
     display: flex;
@@ -31,6 +55,7 @@ h3{
     text-align: center;
     width: 60%;
     margin-left: 20%;
+    margin-bottom: 50px;
 }
 .diet-div{
     width: 100%;
@@ -67,12 +92,51 @@ h3{
    margin-bottom: 50px;
    width: 80%;
 }
-.recipies-paragraph{
-  
-    
-}
 .about-paragraph{
     width: 80%;
     margin-bottom: 80px ;
 
+}
+.card-image img{
+    width: 100%;
+}
+.card-div{
+    width: 100%;
+}
+.card-wrap{
+    box-shadow: 5px 5px 20px gray;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    border-radius: 20px;
+   
+}
+.card-container{
+    margin: 50px;
+    display: flex;
+}
+.subscribe-div{
+    display: flex;
+    
+}
+.youtube-div{
+    margin-left: 100px;
+}
+
+.subscribe-container{
+    box-shadow: 5px 5px 10px gray;
+    margin: 70px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 150px;
+    padding-top: 10px;
+}
+footer h3{
+    color: gray;
+}
+footer small{
+    color: gray;
 }
