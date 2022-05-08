@@ -1,0 +1,40 @@
+body{
+  
+    font-family: 'Arimo', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.orange{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+.diet-container{
+    display: flex;
+}
+.diet-div{
+    width: 100%;
+    margin-left: 80px;
+   
+}
+.diet-img{
+    width: 100%;
+   
+    
+   
+}
+.reg-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+.diet-paragraph{
+   margin-bottom: 50px;
+   width: 70%;
+}
