@@ -12,19 +12,48 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    font-size: 25px;
+}
 .diet-container{
     display: flex;
+    margin-bottom: 100px;
+}
+.about-container{
+    display: flex;
+    background-image: url(shapes/7.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   padding-top: 60px;
+   margin-bottom: 100px;
+}
+.recipies-container{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
 }
 .diet-div{
     width: 100%;
     margin-left: 80px;
    
 }
+.about-div{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.diet-img-div{
+    margin-right: 80px;
+}
+.about-img-div{
+    margin-left: 120px;
+   
+}
 .diet-img{
+    width: 110%;
+}
+.about-img{
     width: 100%;
-   
     
-   
 }
 .reg-button{
     text-decoration: none;
@@ -34,7 +63,16 @@ h1{
     color: white;
     font-weight: 500;
 }
-.diet-paragraph{
+.common-paragraph{
    margin-bottom: 50px;
-   width: 70%;
+   width: 80%;
+}
+.recipies-paragraph{
+  
+    
+}
+.about-paragraph{
+    width: 80%;
+    margin-bottom: 80px ;
+
 }
